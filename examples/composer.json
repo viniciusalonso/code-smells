@@ -1,0 +1,21 @@
+{
+    "name": "Vinícius Alonso",
+    "description": "",
+    "license": "MIT",
+    "keywords": [""],
+    "authors": [
+        {
+            "name": "Vinícius Alonso",
+            "email": "vba321@hotmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "BadSmellsCode\\": "src",
+        }
+    }
+}
