@@ -12,5 +12,16 @@ You'll need to install [git](https://git-scm.com/book/en/v2/Getting-Started-Inst
 git clone git@github.com:viniciusalonso/bad-smells-code.git
 cd bad-smells-code/
 docker-compose build
-docker-compose up -d
+```
+
+### Install dependencies from `composer.json`
+
+```
+docker-compose run web composer install
+```
+
+### Run tests suite
+
+```
+docker-compose run web ./vendor/bin/phpunit
 ```
